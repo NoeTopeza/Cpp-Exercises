@@ -1,5 +1,7 @@
 Command Line Library
 
+Note: This program use functions from cpp standart 23
+
 Available commands
 help : List the available commands
 printStatus : Prints the number of books and authors in the library
