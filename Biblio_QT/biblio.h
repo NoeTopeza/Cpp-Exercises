@@ -92,6 +92,9 @@ public:
      */
     void printAuthorList();
 
+    books getBooks() const { return mBooks; }
+    authors getAuthors() const { return mAuthors; }
+
 private:
     /**
      * @brief Find an author by name or add a new author if not found.

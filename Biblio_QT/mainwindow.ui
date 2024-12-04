@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>360</width>
-    <height>409</height>
+    <height>411</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -101,7 +101,7 @@
       </item>
      </layout>
     </item>
-    <item alignment="">
+    <item>
      <widget class="QStackedWidget" name="bookTypeWidget">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
@@ -110,7 +110,7 @@
        </sizepolicy>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="page">
        <layout class="QHBoxLayout" name="horizontalLayout_5">

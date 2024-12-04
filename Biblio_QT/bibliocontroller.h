@@ -11,9 +11,17 @@ class BiblioController : public QObject
 public:
     explicit BiblioController(QObject *parent = nullptr);
     void addBook(const QString& title, const QString& author);
+    void addBd(const QString& title, const QString& author, const QString& artist);
     void addAuthor(const QString& name);
     void removeBook(const QString& title);
     void removeAuthor(const QString& name);
+
+signals:
+    void bookAdded();
+    void bdAdded();
+    void authorAdded();
+    void bookRemoved();
+    void authorRemoved();
 
 private:
     BiblioModel* m_model;

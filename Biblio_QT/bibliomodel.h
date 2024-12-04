@@ -33,6 +33,12 @@ public:
     bool removeRows(int row, int count, const QModelIndex &parent = QModelIndex()) override;
     bool removeColumns(int column, int count, const QModelIndex &parent = QModelIndex()) override;
 
+    void addBook(const QString& title, const QString& author);
+    void addBd(const QString& title, const QString& author, const QString& artist);
+    void addAuthor(const QString& name);
+    void removeBook(const QString& title);
+    void removeAuthor(const QString& name);
+
 private:
     Biblio *m_biblio;
 };

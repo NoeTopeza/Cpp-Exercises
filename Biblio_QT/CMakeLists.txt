@@ -30,7 +30,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         book.h book.cpp
         bd.h bd.cpp
         biblio.h biblio.cpp
-        biblioapi.h biblioapi.cpp
         bibliomodel.h bibliomodel.cpp
         biblioview.h biblioview.cpp
         bibliocontroller.h bibliocontroller.cpp
